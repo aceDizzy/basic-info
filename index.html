@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Basic Information</title>
+    </head>
+    <body>
+        <h3> Basic Information</h3>
+
+        <h1 class="ml6">
+            <span class="text-wrapper">
+              <span class="letters">Getting to know you! :)</span>
+            </span>
+          </h1>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+           <br>
+
+        <form method="get">
+
+        <table align="center" cellpadding="10">
+            <!------------------------- Basic Information ----->
+            <tr>
+                <td style="color: rgba(122, 80, 109, 0.754);"><i>WHO ARE YOU?</i></td>
+            </tr>
+            <!------------------------- First Name ----->
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" id="fname" maxlength="30"/>
+                </td>
+            </tr>
+            <!------------------------ Middle Name ----->
+            <tr>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text" id="mname" maxlength="30"/>
+                </td>
+            </tr>
+            <!----------------------- Last Name ----->
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" id="lname" maxlength="30"/>
+                </td>
+            </tr>
+                <!----------------------- Age -->
+                <td>Age</td>
+                <td>
+                    <input type="text" id="age" maxlength="3">
+                </td>
+            </tr>
+            <tr>
+                <!----------------------- Address -->
+                <td>Address</td>
+                <td>
+                    <input type="text" id="address"> <br>
+                </td>
+            </tr>
+            <tr>
+                <!----------------------- Course -->
+                <td>Course</td>
+                <td>
+                    <input type="course" id="course" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <!----------------------- E-mail -->
+                <td>E-mail</td>
+                <td>
+                    <input type="text" id="email" placeholder="ex: myname@example.com"/>
+                </td>
+            </tr>
+            <!------------------------- Submit and Reset ----->
+            <tr>
+                <td colspan="2" align="center">
+                    <!-- BUTTON W/ ONCLICK ATTRIBUTE -->
+                    <input type="submit" value="Submit" onclick="greetUser()">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>            
+        </table>
+        </form>
+    </body>
+    <!-- EXTERNAL JS FILE -->
+    <script src="script.js"></script>
+</html>
+                

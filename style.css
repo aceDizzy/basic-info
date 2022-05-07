@@ -1,0 +1,54 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;         
+    font-style: normal;
+    color:rgba(175, 30, 153, 0.42);
+    text-align: center; 
+  }
+
+.ml6{
+  position: relative;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16pt;
+  color: rgba(88, 57, 80, 0.457);
+  text-align: center;
+  overflow: hidden;
+}
+  
+.ml6 .text-wrapper{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+  
+.ml6 .letter{
+  display: inline-block;
+  line-height: 1em;
+}
+  
+table{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color:rgb(240, 230, 240); 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:left; 
+  background-color: rgba(172, 105, 169, 0.455); 
+  border-collapse: collapse; 
+  border-radius: 15px;
+  opacity: .85;
+}
+
+table.inner{
+  border: 0px
+}
+
